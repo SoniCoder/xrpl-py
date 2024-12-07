@@ -12,7 +12,7 @@ from xrpl.models.response import Response
 
 # The default request timeout duration. Set in Client._request_impl to allow more time
 # for longer running commands.
-REQUEST_TIMEOUT: Final[float] = 10.0
+REQUEST_TIMEOUT: Final[float] = 40.0
 
 
 class Client(ABC):
